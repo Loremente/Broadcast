@@ -14,7 +14,7 @@ public class BroadcastCommand implements CommandExecutor {
         if (sender instanceof Player) {
             Player player = (Player) sender;
 
-            if (args.length == 1) {
+            if (args.length >= 1) {
                 StringBuilder builder = new StringBuilder();
                 for (int i = 0; i < args.length; i++) {
                     builder.append(args[i]).append(" ");
