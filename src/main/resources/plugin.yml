@@ -1,0 +1,6 @@
+name: Broadcast
+version: '1.0'
+main: me.loremente.broadcast.Broadcast
+api-version: 1.18
+commands:
+  broadcast:
