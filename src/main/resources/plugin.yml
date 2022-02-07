@@ -4,3 +4,4 @@ main: me.loremente.broadcast.Broadcast
 api-version: 1.18
 commands:
   broadcast:
+    aliases: bc
